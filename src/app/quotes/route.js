@@ -16,8 +16,4 @@ export async function GET() {
     }
   ];
   return new Response(JSON.stringify(quotes));
-  // console.log(JSON.stringify(quotes[0]))
-  // const randomIndex = Math.floor(Math.random() * quotes.length);
-  // const randomQuote = quotes[randomIndex];
-  // return new Response(JSON.stringify(randomQuote));
 }

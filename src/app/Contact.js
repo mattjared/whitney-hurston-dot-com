@@ -27,7 +27,7 @@ export default function Contact() {
     // This will activate the closest `error.js` Error Boundary
       throw new Error('Failed to fetch data');
     } else {
-      router.push('/about')
+      router.push('/about');
     }
   }
   function handleNameChange(e) {
