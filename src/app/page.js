@@ -10,6 +10,7 @@ export default function Home() {
         <Image src="/linkedinphoto.jpeg" alt="" width="250" height="250" className="mx-auto mb-16 rounded-full" />
         <h1 className="font-medium text-gray-600 text-lg md:text-2xl uppercase mb-8">{`Whitney Hurston`}</h1>
         <h2 className='text-6xl font-bold'>AE @ Vercel</h2>
+        <h2 className='text-4xl font-semibold'>7 years sales experience</h2>
         <p className="font-bold text-red-600 text-md md:text-xl my-16">lalalala</p>
       </section>
       <Contact />
